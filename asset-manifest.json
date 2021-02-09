@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/nomflix/static/js/main.6ab8ac65.chunk.js",
-    "main.js.map": "/nomflix/static/js/main.6ab8ac65.chunk.js.map",
+    "main.js": "/nomflix/static/js/main.85ff746e.chunk.js",
+    "main.js.map": "/nomflix/static/js/main.85ff746e.chunk.js.map",
     "runtime-main.js": "/nomflix/static/js/runtime-main.5dad0ae0.js",
     "runtime-main.js.map": "/nomflix/static/js/runtime-main.5dad0ae0.js.map",
-    "static/js/2.6ad834c6.chunk.js": "/nomflix/static/js/2.6ad834c6.chunk.js",
-    "static/js/2.6ad834c6.chunk.js.map": "/nomflix/static/js/2.6ad834c6.chunk.js.map",
+    "static/js/2.01298648.chunk.js": "/nomflix/static/js/2.01298648.chunk.js",
+    "static/js/2.01298648.chunk.js.map": "/nomflix/static/js/2.01298648.chunk.js.map",
     "index.html": "/nomflix/index.html",
-    "static/js/2.6ad834c6.chunk.js.LICENSE.txt": "/nomflix/static/js/2.6ad834c6.chunk.js.LICENSE.txt"
+    "static/js/2.01298648.chunk.js.LICENSE.txt": "/nomflix/static/js/2.01298648.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5dad0ae0.js",
-    "static/js/2.6ad834c6.chunk.js",
-    "static/js/main.6ab8ac65.chunk.js"
+    "static/js/2.01298648.chunk.js",
+    "static/js/main.85ff746e.chunk.js"
   ]
 }
