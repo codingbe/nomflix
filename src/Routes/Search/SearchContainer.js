@@ -13,7 +13,6 @@ export default class SearchContainer extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
     const { term } = this.state;
-    console.log(term);
     if (term !== "") {
       this.searchByTerm();
     }

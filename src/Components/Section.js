@@ -35,8 +35,12 @@ const Postercontainer = styled.div`
 const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-auto-rows: minmax(200px, 250px);
   gap: 15px;
   padding: 15px 10px;
+  @media (max-width: 480px) {
+    grid-auto-rows: minmax(200px, 1fr);
+  }
 `;
 const Title = styled.h1`
   font-size: 30px;
@@ -51,10 +55,9 @@ const Detail = styled(Link)`
 const Section = ({ movies, shows, title }) => (
   <>
     <Helmet>
-      <title>{movies ? `Movies | Nomflix` : `Shows | Nomflix`}</title>
+      <title>{movies ? `Movies | Nomflix` : shows ? `Shows | Nomflix` : `Search | Nomflix`}</title>
     </Helmet>
     {title ? <Title>{title}</Title> : null}
-    {console.log(shows)}
     <Container>
       {movies && movies.length > 0
         ? movies.map((movie) => (

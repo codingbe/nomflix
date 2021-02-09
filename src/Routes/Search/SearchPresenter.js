@@ -1,7 +1,6 @@
 import Loader from "Components/Loader";
 import Search from "Components/Search";
 import Section from "Components/Section";
-import PropTypes from "prop-types";
 
 const SearchPresenter = ({ movies, tvResults, loading, handleSubmit, updateTerm }) => (
   <>

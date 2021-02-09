@@ -18,11 +18,9 @@ export default class DetailContainer extends React.Component {
     try {
       if (url.includes("movie")) {
         const results = await movieApi.detail(id);
-        console.log(results);
         this.setState({ results });
       } else if (url.includes("tv")) {
         const results = await tvApi.detail(id);
-        console.log(results);
         this.setState({ results });
       }
     } catch (e) {

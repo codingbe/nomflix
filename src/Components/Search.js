@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Helmet } from "react-helmet";
 
 const Container = styled.div`
   margin-bottom: 20px;
@@ -15,9 +14,6 @@ const Input = styled.input`
 
 const Search = ({ handleSubmit, updateTerm }) => (
   <Container>
-    <Helmet>
-      <title>Search | Nomflix</title>
-    </Helmet>
     <Form onSubmit={handleSubmit}>
       <Input placeholder="Search Movies or TV..." onChange={updateTerm} />
     </Form>
