@@ -54,9 +54,6 @@ const Detail = styled(Link)`
 
 const Section = ({ movies, shows, title }) => (
   <>
-    <Helmet>
-      <title>{movies ? `Movies | Nomflix` : shows ? `Shows | Nomflix` : `Search | Nomflix`}</title>
-    </Helmet>
     {title ? <Title>{title}</Title> : null}
     <Container>
       {movies && movies.length > 0

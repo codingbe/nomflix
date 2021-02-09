@@ -38,7 +38,7 @@ export default class SearchContainer extends React.Component {
   };
 
   render() {
-    const { movies, tvResults, loading } = this.state;
+    const { movies, tvResults, loading, term } = this.state;
     return (
       <SearchPresenter
         movies={movies}
@@ -46,6 +46,7 @@ export default class SearchContainer extends React.Component {
         loading={loading}
         handleSubmit={this.handleSubmit}
         updateTerm={this.updateTerm}
+        term={term}
       />
     );
   }
